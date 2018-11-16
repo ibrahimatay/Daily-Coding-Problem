@@ -4,7 +4,4 @@ sudo: false # faster builds
 jdk:
   - oraclejdk11
 
-script:
-  - mvn clean
-  - mvn build
-  - mvn test
+script: mvn clean verify
