@@ -18,4 +18,4 @@ cache:
 script: 
   - mvn clean 
   - mvn verify 
-  - -X sonar:sonar
+  #- -X sonar:sonar
