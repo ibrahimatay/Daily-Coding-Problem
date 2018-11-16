@@ -4,4 +4,4 @@ sudo: false # faster builds
 jdk:
   - oraclejdk11
 
-script: mvn clean verify 
+script: mvn clean verify sonar:sonar
