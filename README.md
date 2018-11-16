@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ibrahimatay/DailyCodingProblem.svg?branch=master)](https://travis-ci.org/ibrahimatay/DailyCodingProblem)
+
 # DailyCodingProblem
 Daily coding problem questions solved using Java
 
