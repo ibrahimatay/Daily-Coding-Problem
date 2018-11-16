@@ -6,6 +6,5 @@ jdk:
 
 script:
   - mvn clean
-  - mvn install
   - mvn build
   - mvn test
