@@ -1,6 +1,6 @@
 language: java
-sudo: false # faster builds
-
+sudo: false 
+install: true
 
 jdk:
   - oraclejdk11
@@ -9,7 +9,7 @@ addons:
   sonarcloud:
     organization: "ibrahimatay-github"
     token:
-      secure: cf164fb6fc3da1b7c23b830afd97b30bc3e4fece
+      secure: dacd77f00174dba104b4f54144e619461d296f59
 cache:
   directories:
     - '$HOME/.m2/repository'
@@ -18,4 +18,4 @@ cache:
 script: 
   - mvn clean 
   - mvn verify 
-  - sonar:sonar
+  - sonar-scanner
