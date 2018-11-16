@@ -4,4 +4,10 @@ sudo: false # faster builds
 jdk:
   - oraclejdk11
 
-script: mvn clean verify sonar:sonar
+addons:
+  sonarcloud:
+    organization:"ibrahimatay-github"
+    token:
+      secure: cf164fb6fc3da1b7c23b830afd97b30bc3e4fece
+
+script: mvn clean verify sonar-scanner
