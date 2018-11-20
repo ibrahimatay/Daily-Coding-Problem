@@ -19,3 +19,6 @@ script:
   - mvn clean 
   - mvn verify 
   #- -X sonar:sonar
+
+after_success:
+  - mvn clean cobertura:cobertura
