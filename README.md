@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/ibrahimatay/DailyCodingProblem.svg?branch=master)](https://travis-ci.org/ibrahimatay/DailyCodingProblem)
 
-[![Coverage Status](https://coveralls.io/repos/github/ibrahimatay/DailyCodingProblem/badge.svg)](https://coveralls.io/github/ibrahimatay/DailyCodingProblem)
-
 # DailyCodingProblem
 Daily coding problem questions solved using Java
 
@@ -117,3 +115,13 @@ For example, the following tree has 5 unival subtrees:
 [[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem08.java)]
 [[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem08Test.java)]
 
+***Day 9***
+
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+
+For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
+
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem09.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem09Test.java)]
+
+*This problem was asked by Airbnb.*
