@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/ibrahimatay/DailyCodingProblem.svg?branch=master)](https://travis-ci.org/ibrahimatay/DailyCodingProblem)
 
 # DailyCodingProblem
-Daily coding problem questions solved using Java
+Here is my approach for coding challenges at dailycodingproblem.com. I am using Java. Feel free to create a new issue thread for your questions or suggestions.
 
 ***Day 1***
 
@@ -75,7 +75,7 @@ If using a language that has no pointers (such as Python), you can assume you ha
 
 *This problem was asked by Google.*
 
-**Note:** I didn't solve with Java. Because Java with didn't use the pointer. If you any people know, contact me.
+**Note:** I didn't solve with Java. Because didn't use the pointer. If you any people know, contact me.
 
 
 ***Day 7***
