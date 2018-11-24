@@ -132,5 +132,5 @@ Implement a job scheduler which takes in a function f and an integer n, and call
 
 *This problem was asked by Apple.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem09.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem09Test.java)]
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem10.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem10Test.java)]
