@@ -46,4 +46,9 @@ public class Problem07Test {
     public void shouldBeInputValue12(){
         assertEquals(2, problem.solution("12"));
     }
+
+    @Test
+    public void shouldBeInputValue001(){
+        assertEquals(0, problem.solution("001"));
+    }
 }
