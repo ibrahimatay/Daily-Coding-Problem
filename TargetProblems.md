@@ -98,7 +98,7 @@ Given an N by K matrix where the nth row and kth column represents the cost to b
 
 *This problem was asked by Facebook.*
 
-***Day20***
+***Day 20***
 
 Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
 
@@ -156,4 +156,8 @@ A binary search tree is a tree with two children, left and right, and satisfies 
 
 *This problem was asked by LinkedIn.*
 
+***Day 90***
 
+Given an integer n and a list of integers l, write a function that randomly generates a number from 0 to n-1 that isn't in l (uniform).
+
+*This question was asked by Google.*
