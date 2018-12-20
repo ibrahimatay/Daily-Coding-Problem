@@ -117,7 +117,7 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 *This problem was asked by Snapchat.*
 
-***Day 59***
+***Day 57***
 
 Given a string s and an integer k, break up the string into multiple texts such that each text has a length of k or less. You must break it up so that words don't break across lines. If there's no way to break the text up, then return null.
 
