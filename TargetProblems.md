@@ -117,6 +117,195 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 *This problem was asked by Snapchat.*
 
+***Day 22***
+
+Given a dictionary of words and a string made up of those words (no spaces), return the original sentence in a list. If there is more than one possible reconstruction, return any of them. If there is no possible reconstruction, then return null.
+
+For example, given the set of words 'quick', 'brown', 'the', 'fox', and the string "thequickbrownfox", you should return ['the', 'quick', 'brown', 'fox'].
+
+Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
+
+*This problem was asked by Microsoft.*
+
+***Day 23***
+
+You are given an M by N matrix consisting of booleans that represents a board.
+Each True boolean represents a wall. Each False boolean represents a tile you
+can walk on.
+
+Given this matrix, a start coordinate, and an end coordinate, return the minimum
+number of steps required to reach the end coordinate from the start. If there is
+no possible path, then return null. You can move up, left, down, and right. You
+cannot move through walls. You cannot wrap around the edges of the board.
+
+For example, given the following board:
+```
+[[f, f, f, f],
+[t, t, f, t],
+[f, f, f, f],
+[f, f, f, f]]
+```
+and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number
+of steps required to reach the end is 7, since we would need to go through (1, 2)
+because there is a wall everywhere else on the second row.
+
+*This problem was asked by Google.*
+
+***Day 24***
+
+Implement locking in a binary tree. A binary tree node can be locked or unlocked
+only if all of its descendants or ancestors are not locked.
+
+Design a binary tree node class with the following methods:
+
+- is_locked, which returns whether the node is locked
+- lock, which attempts to lock the node. If it cannot be locked, then it should return false. Otherwise, it should lock it and return true.
+- unlock, which unlocks the node. If it cannot be unlocked, then it should return
+false. Otherwise, it should unlock it and return true.
+
+You may augment the node to add parent pointers or any other property you would
+like. You may assume the class is used in a single-threaded program, so there is
+no need for actual locks or mutexes. Each method should run in O(h), where h is
+the height of the tree.
+
+*This problem was asked by Google.*
+
+***Day 25***
+
+Implement regular expression matching with the following special characters:
+- . (period) which matches any single character
+- * (asterisk) which matches zero or more of the preceding element
+
+That is, implement a function that takes in a string and a valid regular
+expression and returns whether or not the string matches the regular expression.
+
+For example, given the regular expression "ra." and the string "ray", your
+function should return true. The same regular expression on the string "raymond"
+should return false.
+
+Given the regular expression ".*at" and the string "chat", your function should
+return true. The same regular expression on the string "chats" should return false.
+
+*This problem was asked by Facebook.*
+
+***Day 26***
+
+Given a singly linked list and an integer k, remove the kth last element from the list. k is guaranteed to be smaller than the length of the list.
+
+The list is very long, so making more than one pass is prohibitively expensive. Do this in constant space and in one pass.
+
+*This problem was asked by Google.*
+
+***Day 27***
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+For example, given the string "([])[]({})", you should return true.
+
+Given the string "([)]" or "((()", you should return false.
+
+*This problem was asked by Facebook.*
+
+***Day 28***
+
+Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.
+
+More specifically, you should have as many words as possible in each line. There should be at least one space between each word. Pad extra spaces when necessary so that each line has exactly length k. Spaces should be distributed as equally as possible, with the extra spaces, if any, distributed starting from the left.
+
+If you can only fit one word on a line, then you should pad the right-hand side
+with spaces. Each word is guaranteed not to be longer than k.
+
+For example, given the list of words
+
+["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"] and k = 16, you should return the following:
+```
+["the  quick brown", # 1 extra space on the left
+"fox  jumps  over", # 2 extra spaces distributed evenly
+"the   lazy   dog"] # 4 extra spaces distributed evenly
+```
+
+*This problem was asked by Palantir.*
+
+***Day 29***
+
+Run-length encoding is a fast and simple method of encoding strings. The basic idea is to represent repeated successive characters as a single count and character. For example, the string "AAAABBBCCDAA" would be encoded as "4A3B2C1D2A".
+
+Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
+
+*This problem was asked by Amazon.*
+
+***Day 30***
+
+You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height.
+
+Suppose it will rain and all spots between two walls get filled up. Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
+
+For example, given the input [2, 1, 2], we can hold 1 unit of water in the middle.
+
+Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in the second, and 3 in the fourth index (we cannot hold 5 since it would run off to the left), so we can trap 8 units of water.
+
+*This problem was asked by Facebook.*
+
+***Day 31***
+
+The edit distance between two strings refers to the minimum number of character insertions, deletions, and substitutions required to change one string to the other. For example, the edit distance between “kitten” and “sitting” is three: substitute the 'k' for 's', substitute the 'e' for 'i', and append a 'g'.
+
+Given two strings, compute the edit distance between them.
+
+*This problem was asked by Google.*
+
+***Day 32***
+
+Suppose you are given a table of currency exchange rates, represented as a 2D array. Determine whether there is a possible arbitrage: that is, whether there is some sequence of trades you can make, starting with some amount A of any currency, so that you can end up with some amount greater than A of that currency.
+
+There are no transaction costs and you can trade fractional quantities.
+
+*This problem was asked by Jane Street.*
+
+***Day 33***
+
+Compute the running median of a sequence of numbers. That is, given a stream of numbers, print out the median of the list so far on each new element. Recall that the median of an even-numbered list is the average of the two middle
+numbers.
+
+For example, given the sequence [2, 1, 5, 7, 2, 0, 5], your algorithm should
+```
+print out:
+2
+1.5
+2
+3.5
+2
+2
+2
+```
+
+*This problem was asked by Microsoft.*
+
+***Day 34***
+
+Given a string, find the palindrome that can be made by inserting the fewest number of characters as possible anywhere in the word. If there is more than one palindrome of minimum length that can be made, return the lexicographically earliest one (the first one alphabetically).
+
+For example, given the string "race", you should return "ecarace", since we can add three letters to it (which is the smallest amount to make a palindrome). There are seven other palindromes that can be made from "race" by adding three letters, but "ecarace" comes first alphabetically.
+
+As another example, given the string "google", you should return "elgoogle".
+
+*This problem was asked by Quora.*
+
+***Day 35***
+
+Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+
+Do this in linear time and in-place.
+
+For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+*This problem was asked by Google.*
+
+***Day 36***
+
+Given the root to a binary search tree, find the second largest node in the tree.
+
+*This problem was asked by Dropbox.*
+
 ***Day 57***
 
 Given a string s and an integer k, break up the string into multiple texts such that each text has a length of k or less. You must break it up so that words don't break across lines. If there's no way to break the text up, then return null.
@@ -572,3 +761,13 @@ for f in functions:
     print(f())
 ```
 *This problem was asked by Dropbox.*
+
+***Day 92***
+
+We're given a hashmap with a key courseId and value a list of courseIds, which represents that the prerequsite of courseId is courseIds. Return a sorted ordering of courses such that we can finish all courses.
+
+Return null if there is no such ordering.
+
+For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}, should return ['CSC100', 'CSC200', 'CSCS300'].
+
+*This problem was asked by Airbnb.*
