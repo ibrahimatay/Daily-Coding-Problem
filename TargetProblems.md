@@ -306,6 +306,223 @@ Given the root to a binary search tree, find the second largest node in the tree
 
 *This problem was asked by Dropbox.*
 
+***Day 37***
+
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+
+For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+
+You may also use a list or array to represent a set.
+
+*This problem was asked by Google.*
+
+***Day 38***
+
+You have an N by N board. Write a function that, given N, returns the number of possible arrangements of the board where N queens can be placed on the board without threatening each other, i.e. no two queens share the same row, column, or diagonal.
+
+*This problem was asked by Microsoft.*
+
+***Day 39***
+
+Conway's Game of Life takes place on an infinite two-dimensional board of square cells. Each cell is either dead or alive, and at each tick, the following rules apply:
+
+- Any live cell with less than two live neighbours dies.
+- Any live cell with two or three live neighbours remains living.
+- Any live cell with more than three live neighbours dies.
+- Any dead cell with exactly three live neighbours becomes a live cell.
+- A cell neighbours another cell if it is horizontally, vertically, or diagonally adjacent.
+
+Implement Conway's Game of Life. It should be able to be initialized with a starting list of live cell coordinates and the number of steps it should run for. Once initialized, it should print out the board state at each step. Since it's an infinite board, print out only the relevant coordinates, i.e. from the top-leftmost live cell to bottom-rightmost live cell.
+
+You can represent a live cell with an asterisk (*) and a dead cell with a dot (.).
+
+*This problem was asked by Dropbox.*
+
+***Day 40***
+
+Given an array of integers where every integer occurs three times except for one integer, which only occurs once, find and return the non-duplicated integer.
+
+For example, given [6, 1, 3, 3, 3, 6, 6], return 1. Given [13, 19, 13, 13], return 19.
+
+Do this in O(N) time and O(1) space.
+
+*This problem was asked by Google.*
+
+***Day 41***
+
+Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary. If no such itinerary exists, return null. If there are multiple possible itineraries, return the lexicographically smallest one. All flights must be used in the itinerary.
+
+For example, given the list of flights [('SFO', 'HKO'), ('YYZ', 'SFO'), ('YUL', 'YYZ'), ('HKO', 'ORD')] and starting airport 'YUL', you should return the list ['YUL', 'YYZ', 'SFO', 'HKO', 'ORD'].
+
+Given the list of flights [('SFO', 'COM'), ('COM', 'YYZ')] and starting airport 'COM', you should return null.
+
+Given the list of flights [('A', 'B'), ('A', 'C'), ('B', 'C'), ('C', 'A')] and starting airport 'A', you should return the list ['A', 'B', 'C', 'A', 'C'] even though ['A', 'C', 'A', 'B', 'C'] is also a valid itinerary. However, the first one is lexicographically smaller.
+
+*This problem was asked by Facebook.*
+
+***Day 42***
+
+Given a list of integers S and a target number k, write a function that returns a subset of S that adds up to k.
+
+If such a subset cannot be made, then return null.
+
+Integers can appear more than once in the list. You may assume all numbers in the list are positive.
+
+For example, given S = [12, 1, 61, 5, 9, 2] and k = 24, return [12, 9, 2, 1] since it sums up to 24.
+
+*This problem was asked by Google.*
+
+***Day 43***
+
+Implement a stack that has the following methods:
+
+- push(val), which pushes an element onto the stack
+- pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+- max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
+Each method should run in constant time.
+
+*This problem was asked by Amazon.*
+
+***Day 44***
+
+We can determine how "out of order" an array A is by counting the number of inversions it has. Two elements A[i] and A[j] form an inversion if A[i] > A[j] but i < j. That is, a smaller element appears after a larger element.
+
+Given an array, count the number of inversions it has. Do this faster than O(N^2) time.
+
+You may assume each element in the array is distinct.
+
+For example, a sorted list has zero inversions. The array [2, 4, 1, 3, 5] has three inversions: (2, 1), (4, 1), and (4, 3). 
+
+The array [5, 4, 3, 2, 1] has ten inversions: every distinct pair forms an inversion.
+
+*This problem was asked by Google.*
+
+***Day 45***
+
+Using a function rand5() that returns an integer from 1 to 5 (inclusive) with uniform probability, implement a function rand7() that returns an integer from 1 to 7 (inclusive).
+
+*This problem was asked by Two Sigma.*
+
+***Day 46***
+
+Given a string, find the longest palindromic contiguous substring. If there are more than one with the maximum length, return any one.
+
+For example, the longest palindromic substring of "aabcdcb" is "bcdcb". The longest palindromic substring of "bananas" is "anana".
+"""
+*This problem was asked by Amazon.*
+
+***Day 47***
+
+Given a array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+*This problem was asked by Facebook.*
+
+***Day 48***
+
+Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree.
+
+For example, given the following preorder traversal:
+```
+[a, b, d, e, c, f, g]
+```
+And the following inorder traversal:
+```
+[d, b, e, a, f, c, g]
+```
+You should return the following tree:
+```
+    a
+   / \
+  b   c
+ / \ / \
+d  e f  g
+```
+*This problem was asked by Google.*
+
+***Day 49***
+
+Given an array of numbers, find the maximum sum of any contiguous subarray of the array.
+
+For example, given the array [34, -50, 42, 14, -5, 86], the maximum sum would be 137, since we would take elements 42, 14, -5, and 86.
+
+Given the array [-5, -1, -8, -9], the maximum sum would be 0, since we would not take any elements.
+
+Do this in O(N) time.
+
+*This problem was asked by Amazon.*
+
+***Day 50***
+
+Suppose an arithmetic expression is given as a binary tree. Each leaf is an integer and each internal node is one of '+', '−', '∗', or '/'.
+
+Given the root to such a tree, write a function to evaluate it.
+
+For example, given the following tree:
+```
+    *
+   / \
+  +    +
+ / \  / \
+3  2  4  5
+```
+You should return 45, as it is (3 + 2) * (4 + 5).
+
+*This problem was asked by Microsoft.*
+
+***Day 51***
+
+Given a function that generates perfectly random numbers between 1 and k (inclusive), where k is an input, write a function that shuffles a deck of cards represented as an array using only swaps.
+
+It should run in O(N) time.
+
+Hint: Make sure each one of the 52! permutations of the deck is equally likely.
+
+*This problem was asked by Facebook.*
+
+***Day 52***
+
+Implement an LRU (Least Recently Used) cache. It should be able to be initialized with a cache size n, and contain the following methods:
+- set(key, value): sets key to value. If there are already n items in the cache and we are adding a new item, then it should also remove the least recently used item.
+- get(key): gets the value at key. If no such key exists, return null.
+
+Each operation should run in O(1) time.
+
+*This problem was asked by Google.*
+
+***Day 53***
+
+Implement a queue using two stacks. Recall that a queue is a FIFO (first-in, first-out) data structure with the following methods: enqueue, which inserts an element into the queue, and dequeue, which removes it.
+
+*This problem was asked by Apple.*
+
+***Day 54***
+
+Sudoku is a puzzle where you're given a partially-filled 9 by 9 grid with digits. The objective is to fill the grid with the constraint that every row, column, and box (3 by 3 subgrid) must contain all of the digits from 1 to 9.
+
+Implement an efficient sudoku solver.
+
+*This problem was asked by Dropbox.*
+
+***Day 55***
+
+Implement a URL shortener with the following methods:
+
+- shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+- restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+
+*This problem was asked by Microsoft.*
+
+***Day 56***
+
+Given an undirected graph represented as an adjacency matrix and an integer k, write a function to determine whether each vertex in the graph can be colored such that no two adjacent vertices share the same color using at most k colors.
+
+*This problem was asked by Google.*
+
 ***Day 57***
 
 Given a string s and an integer k, break up the string into multiple texts such that each text has a length of k or less. You must break it up so that words don't break across lines. If there's no way to break the text up, then return null.
