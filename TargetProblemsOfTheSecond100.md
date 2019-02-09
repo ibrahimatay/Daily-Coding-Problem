@@ -110,3 +110,70 @@ it should return [[1, 2], [1, 3, 4], [1, 3, 5]].
 
 *This problem was asked by Facebook.*
 
+***Day 111***
+
+Given a word W and a string S, find all starting indices in S which are anagrams of W.
+
+For example, given that W is "ab", and S is "abxaba", return 0, 3, and 4.
+
+*This problem was asked by Google.*
+
+***Day 112***
+
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree. Assume that each node in the tree also has a pointer to its parent.
+
+According to the definition of [LCA on Wikipedia](https://www.wikiwand.com/en/Lowest_common_ancestor): “The lowest common ancestor is defined between two nodes v and w as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).”
+
+*This problem was asked by Twitter.*
+
+***Day 113***
+
+Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+
+Follow-up: given a mutable string representation, can you perform this operation in-place?
+
+*This problem was asked by Google.*
+
+***Day 114***
+
+Given a string and a set of delimiters, reverse the words in the string while maintaining the relative order of the delimiters. For example, given "hello/world:here", return "here/world:hello"
+
+Follow-up: Does your solution work for the following cases: "hello/world:here/", "hello//world:here"
+
+*This problem was asked by Facebook.*
+
+***Day 115***
+
+Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
+
+*This problem was asked by Google.*
+
+***Day 116***
+
+Generate a finite, but an arbitrarily large binary tree quickly in O(1).
+
+That is, generate() should return a tree whose size is unbounded but finite.
+
+*This problem was asked by Jane Street.*
+
+***Day 117***
+
+Given a binary tree, return the level of the tree with minimum sum.
+
+*This problem was asked by Facebook.*
+
+***Day 118***
+
+Given a sorted list of integers, square the elements and give the output in sorted order.
+
+For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
+
+*This problem was asked by Google.*
+
+***Day 119***
+
+Given a set of closed intervals, find the smallest set of numbers that covers all the intervals. If there are multiple smallest sets, return any of them.
+
+For example, given the intervals [0, 3], [2, 6], [3, 4], [6, 9], one set of numbers that covers all these intervals is {3, 6}.
+
+*This problem was asked by Google.*
