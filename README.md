@@ -3,95 +3,39 @@
 # DailyCodingProblem
 Here is my approach for coding challenges at dailycodingproblem.com. I am using Java. Feel free to create a new issue thread for your questions or suggestions.
 
-***Day 1***
 
-Given a list of numbers and a number k, return whether any two numbers from the list add up to k. For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+***Day 11***
 
-*This problem was recently asked by Google.*
+Implement an autocomplete system. That is, given a query string s and a set of all possible query strings, return all strings in the set that have s as a prefix.
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem01.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem01Test.java)]
+For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
 
-***Day 2***
+Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
-Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i. For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
+*This problem was asked by Twitter.*
 
-*This problem was asked by Uber.*
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem11.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem11Test.java)]
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem02.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem02Test.java)]
+***Day 10***
 
-***Day 3***
+Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
-Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree. For example, given the following Node class
-```
-class Node:
-  def __init__(self, val, left=None, right=None):
-    self.val = val
-    self.left = left
-    self.right = right
-```
-The following test should pass:
-```
-  node = Node('root', Node('left', Node('left.left')), Node('right'))
-  assert deserialize(serialize(node)).left.left.val == 'left.left'
-```
-*This problem was asked by Google.*
+*This problem was asked by Apple.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem03.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem03Test.java)]
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem10.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem10Test.java)]
 
-***Day 4***
+***Day 9***
 
-Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well. For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3. You can modify the input array in-place.
+Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
 
-*This problem was asked by Stripe.*
+For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem04.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem04Test.java)]
+*This problem was asked by Airbnb.*
 
-***Day 5***
-
-cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4. Given this implementation of cons:
-```
-  def cons(a, b):
-    def pair(f):
-      return f(a, b)
-    return pair
-```
-Implement car and cdr.
-
-*This problem was asked by Jane Street.*
-
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem05.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem05Test.java)]
-
-
-***Day 6***
-
-An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index.
-
-If using a language that has no pointers (such as Python), you can assume you have access to ```get_pointer ``` and ```dereference_pointer``` functions that converts between nodes and memory addresses.
-
-*This problem was asked by Google.*
-
-**Note:** I didn't solve with Java. Because didn't use the pointer. If you any people know, contact me.
-
-
-***Day 7***
-
-Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
-
-For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
-
-You can assume that the messages are decodable. For example, '001' is not allowed.
-
-*This problem was asked by Facebook.*
-
-
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem07.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem07Test.java)]
-
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem09.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem09Test.java)]
 
 ***Day 8***
 
@@ -115,22 +59,91 @@ For example, the following tree has 5 unival subtrees:
 [[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem08.java)]
 [[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem08Test.java)]
 
-***Day 9***
+***Day 7***
 
-Given a list of integers, write a function that returns the largest sum of non-adjacent numbers. Numbers can be 0 or negative.
+Given the mapping a = 1, b = 2, ... z = 26, and an encoded message, count the number of ways it can be decoded.
 
-For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
+For example, the message '111' would give 3, since it could be decoded as 'aaa', 'ka', and 'ak'.
 
-*This problem was asked by Airbnb.*
+You can assume that the messages are decodable. For example, '001' is not allowed.
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem09.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem09Test.java)]
+*This problem was asked by Facebook.*
 
-***Day 10***
 
-Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem07.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem07Test.java)]
 
-*This problem was asked by Apple.*
+***Day 6***
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem10.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem10Test.java)]
+An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index.
+
+If using a language that has no pointers (such as Python), you can assume you have access to ```get_pointer ``` and ```dereference_pointer``` functions that converts between nodes and memory addresses.
+
+*This problem was asked by Google.*
+
+**Note:** I didn't solve with Java. Because didn't use the pointer. If you any people know, contact me.
+
+***Day 5***
+
+cons(a, b) constructs a pair, and car(pair) and cdr(pair) returns the first and last element of that pair. For example, car(cons(3, 4)) returns 3, and cdr(cons(3, 4)) returns 4. Given this implementation of cons:
+```
+  def cons(a, b):
+    def pair(f):
+      return f(a, b)
+    return pair
+```
+Implement car and cdr.
+
+*This problem was asked by Jane Street.*
+
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem05.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem05Test.java)]
+
+***Day 4***
+
+Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well. For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should give 3. You can modify the input array in-place.
+
+*This problem was asked by Stripe.*
+
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem04.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem04Test.java)]
+
+
+***Day 3***
+
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree. For example, given the following Node class
+```
+class Node:
+  def __init__(self, val, left=None, right=None):
+    self.val = val
+    self.left = left
+    self.right = right
+```
+The following test should pass:
+```
+  node = Node('root', Node('left', Node('left.left')), Node('right'))
+  assert deserialize(serialize(node)).left.left.val == 'left.left'
+```
+*This problem was asked by Google.*
+
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem03.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem03Test.java)]
+
+***Day 2***
+
+Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i. For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
+
+*This problem was asked by Uber.*
+
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem02.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem02Test.java)]
+
+
+***Day 1***
+
+Given a list of numbers and a number k, return whether any two numbers from the list add up to k. For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+
+*This problem was recently asked by Google.*
+
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem01.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem01Test.java)]
