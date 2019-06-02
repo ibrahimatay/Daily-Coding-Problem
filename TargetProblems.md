@@ -1,4 +1,4 @@
-# My Target Problems of The First 100
+# My Target Problems
 
 ***Day 12***
 
