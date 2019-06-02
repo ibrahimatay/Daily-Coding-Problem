@@ -5,11 +5,6 @@ install: true
 jdk:
   - oraclejdk11
 
-addons:
-  sonarcloud:
-    organization: "ibrahimatay-github"
-    token:
-      secure: dacd77f00174dba104b4f54144e619461d296f59
 cache:
   directories:
     - '$HOME/.m2/repository'
@@ -17,8 +12,5 @@ cache:
     
 script: 
   - mvn clean 
-  - mvn verify 
-  #- -X sonar:sonar
-
-after_success:
-  - mvn clean cobertura:cobertura
+  - mvn verify
+  - mvn test
