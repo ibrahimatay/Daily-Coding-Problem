@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ibrahimatay/DailyCodingProblem.svg?branch=master)](https://travis-ci.org/ibrahimatay/DailyCodingProblem)
+[![Build Status](https://travis-ci.org/ibrahimatay/DailyCodingProblem.svg?branch=master)](https://travis-ci.org/ibrahimatay/DailyCodingProblem) ![Java CI](https://github.com/ibrahimatay/DailyCodingProblem/workflows/Java%20CI/badge.svg)
 
 # DailyCodingProblem
 Here is my approach for coding challenges at dailycodingproblem.com. I am using Java. Feel free to create a new issue thread for your questions or suggestions.
