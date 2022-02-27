@@ -3,6 +3,16 @@
 # DailyCodingProblem
 Here is my approach for coding challenges at dailycodingproblem.com. I am using Java. Feel free to create a new issue thread for your questions or suggestions.
 
+***Day 21***
+
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+*This problem was asked by Snapchat.*
+
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem21.java)]
+[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem21Test.java)]
+
 ***Day 20***
 
 Given two singly linked lists that intersect at some point, find the intersecting node. The lists are non-cyclical.
