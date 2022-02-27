@@ -1,12 +1,13 @@
 package com.ibrahimatay;
 
-import com.ibrahimatay.Problem03.*;
-import org.junit.*;
-import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class Problem03Test {
 
-    /*
+    /**
     This problem was asked by Google.
 
     Given the root to a binary tree, implement serialize(root),
@@ -31,14 +32,13 @@ public class Problem03Test {
     @Before
     public void setUp() throws Exception {
         problem = new Problem03();
-
     }
 
     @Test
     public void shouldBeInputValue1DependsOnOutputValueIsThatForSerialize(){
-        Node node = new Node("root",
-                        new Node("left",
-                                new Node("left.left"), null), new Node("right"));
+        Problem03.Node node = new Problem03.Node("root",
+                        new Problem03.Node("left",
+                                new Problem03.Node("left.left"), null), new Problem03.Node("right"));
 
         var result = problem.serialize(node);
 
@@ -47,7 +47,7 @@ public class Problem03Test {
 
     @Test
     public void shouldBeInputValue2DependsOnOutputValueIsThatForSerialize(){
-        Node node = new Node("root", null, new Node("right"));
+        Problem03.Node node = new Problem03.Node("root", null, new Problem03.Node("right"));
 
         var result = problem.serialize(node);
 
@@ -57,7 +57,7 @@ public class Problem03Test {
     @Test
     public void shouldBeInputValue1DependsOnOutputValueIsThatForDeserialize(){
 
-        Node node = problem.deserialize("root,left,right,left.left,#,#,#,#,#");
+        Problem03.Node node = problem.deserialize("root,left,right,left.left,#,#,#,#,#");
 
         assertEquals("root", node.value);
         assertEquals("right", node.getRight().value);
@@ -68,7 +68,7 @@ public class Problem03Test {
     @Test
     public void shouldBeInputValue2DependsOnOutputValueIsThatForDeserialize(){
 
-        Node node = problem.deserialize("root,#,right,#,#");
+        Problem03.Node node = problem.deserialize("root,#,right,#,#");
 
         assertEquals("root", node.value);
         assertEquals(null, node.getLeft());
