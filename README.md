@@ -1,6 +1,6 @@
 [![Java CI with Maven](https://github.com/ibrahimatay/DailyCodingProblem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/DailyCodingProblem/actions/workflows/maven.yml)
 
-# DailyCodingProblem
+# Daily Coding Problem
 Here is my approach for coding challenges at dailycodingproblem.com. I am using Java. Feel free to create a new issue thread for your questions or suggestions.
 
 ***Day 22***
