@@ -27,7 +27,7 @@ because there is a wall everywhere else on the second row.
 
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem2.java)]
+[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem23.java)]
 [[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem23Test.java)]
 
 ***Day 22***
