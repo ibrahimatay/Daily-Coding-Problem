@@ -328,8 +328,8 @@ Given an array of integers, return a new array such that each element at index i
 
 *This problem was asked by Uber.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem02.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem02Test.java)]
+[[Solution](problem01/problem02.go)]
+[[Test](problem01/problem02_test.go)]
 
 
 ***Day 1***
@@ -338,5 +338,5 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 
 *This problem was recently asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem01.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem01Test.java)]
+[[Solution](problem01/problem01.go)]
+[[Test](problem01/problem01_test.go)]
