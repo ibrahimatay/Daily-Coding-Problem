@@ -1,4 +1,5 @@
-[![Java CI with Maven](https://github.com/ibrahimatay/DailyCodingProblem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/DailyCodingProblem/actions/workflows/maven.yml)
+[![Java CI with Maven](https://github.com/ibrahimatay/DailyCodingProblem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/DailyCodingProblem/actions/workflows/maven.yml) [![Go](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml)
+
 
 # Daily Coding Problem
 My solutions to coding challenges from dailycodingproblem.com, are implemented in Java and Go. If you have any questions or suggestions, please feel free to open a new issue thread for discussion.
