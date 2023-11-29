@@ -1,7 +1,7 @@
 package problem01
 
 import (
-	"Daily-Coding-Problem/utils"
+	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
@@ -11,10 +11,7 @@ func TestSolutionFor17(t *testing.T) {
 	expected := []int{10, 7}
 
 	result := Solution(numbers, k)
-
-	if !utils.IntArraysEqual(result, expected) {
-		t.Errorf("Expected %v, but got %v", expected, result)
-	}
+	assert.Equal(t, result, expected)
 }
 
 func TestSolutionFor10(t *testing.T) {
@@ -24,9 +21,7 @@ func TestSolutionFor10(t *testing.T) {
 
 	result := Solution(numbers, k)
 
-	if !utils.IntArraysEqual(result, expected) {
-		t.Errorf("Expected %v, but got %v", expected, result)
-	}
+	assert.Equal(t, result, expected)
 }
 
 func TestSolutionFor18(t *testing.T) {
@@ -36,7 +31,5 @@ func TestSolutionFor18(t *testing.T) {
 
 	result := Solution(numbers, k)
 
-	if !utils.IntArraysEqual(result, expected) {
-		t.Errorf("Expected %v, but got %v", expected, result)
-	}
+	assert.Equal(t, result, expected)
 }
