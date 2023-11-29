@@ -338,5 +338,5 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 
 *This problem was recently asked by Google.*
 
-[[Solution](problem01/problem01.go)]
-[[Test](problem01/problem01_test.go)]
+[[Solution](problem01/Problem01.go)]
+[[Test](problem01/Problem01_test.go)]
