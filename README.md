@@ -1,4 +1,4 @@
-[![Go](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml)
+[![Go](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml) [![Java CI with Maven](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml)
 
 
 # Daily Coding Problem
