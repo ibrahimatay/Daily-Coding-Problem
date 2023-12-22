@@ -28,8 +28,9 @@ because there is a wall everywhere else on the second row.
 
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem23.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem23Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem23.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem23Test.java)                                |
 
 ***Day 22***
 
@@ -41,8 +42,9 @@ Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string
 
 *This problem was asked by Microsoft.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem22.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem22Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem22.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem22Test.java)                                |
 
 ***Day 21***
 
@@ -51,8 +53,10 @@ For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
 *This problem was asked by Snapchat.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem21.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem21Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem21.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem21Test.java)                                |
+
 
 ***Day 20***
 
@@ -66,8 +70,10 @@ Do this in O(M + N) time (where M and N are the lengths of the lists) and consta
 
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem20.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem20Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem20.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem20Test.java)                                |
+
 
 ***Day 19***
 
@@ -77,8 +83,9 @@ Given an N by K matrix where the nth row and kth column represents the cost to b
 
 *This problem was asked by Facebook.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem19.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem19Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem19.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem19Test.java)                                |
 
 ***Day 18***
 
@@ -95,8 +102,9 @@ Do this in O(n) time and O(k) space. You can modify the input array in-place and
 
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem18.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem18Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem18.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem18Test.java)                                |
 
 ***Day 17***
 
@@ -129,8 +137,9 @@ The name of a directory or sub-directory will not contain a period.
 
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem17.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem17Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem17.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem17Test.java)                                |
 
 ***Day 16***
 
@@ -140,8 +149,9 @@ record(order_id): adds the order_id to the log get_last(i): gets the ith last el
 
 *This problem was asked by Twitter.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem16.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem16Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem16.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem16Test.java)                                |
 
 ***Day 15***
 
@@ -151,8 +161,9 @@ If you liked this problem, feel free to forward it along!
 
 *This problem was asked by Facebook.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem15.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem15Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem15.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem15Test.java)                                |
 
 ***Day 14***
 
@@ -162,8 +173,9 @@ Hint: The basic equation of a circle is x2 + y2 = r2.
 
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem14.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem14Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem14.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem14Test.java)                                |
 
 ***Day 13***
 
@@ -173,8 +185,9 @@ For example, given s = "abcba" and k = 2, the longest substring with k distinct 
 
 *This problem was asked by Amazon.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem13.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem13Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem13.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem13Test.java)                                |
 
 ***Day 12***
 
@@ -194,8 +207,9 @@ For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
 *This problem was asked by Apple.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem12.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem12Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem12.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem12Test.java)                                |
 
 ***Day 11***
 
@@ -207,8 +221,10 @@ Hint: Try preprocessing the dictionary into a more efficient data structure to s
 
 *This problem was asked by Twitter.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem11.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem11Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem11.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem11Test.java)                                |
+
 
 ***Day 10***
 
@@ -216,8 +232,9 @@ Implement a job scheduler which takes in a function f and an integer n, and call
 
 *This problem was asked by Apple.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem10.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem10Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem10.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem10Test.java)                                |
 
 ***Day 9***
 
@@ -227,8 +244,9 @@ For example, [2, 4, 6, 2, 5] should return 13, since we pick 2, 6, and 5. [5, 1,
 
 *This problem was asked by Airbnb.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem09.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem09Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem09.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem09Test.java)                                |
 
 ***Day 8***
 
@@ -249,8 +267,9 @@ For example, the following tree has 5 unival subtrees:
 
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem08.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem08Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem08.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem08Test.java)                                |
 
 ***Day 7***
 
@@ -262,9 +281,9 @@ You can assume that the messages are decodable. For example, '001' is not allowe
 
 *This problem was asked by Facebook.*
 
-
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem07.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem07Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem07.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem07Test.java)                                |
 
 ***Day 6***
 
@@ -275,6 +294,10 @@ If using a language that has no pointers (such as Python), you can assume you ha
 *This problem was asked by Google.*
 
 **Note:** I didn't solve with Java. Because didn't use the pointer. If you any people know, contact me.
+
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+
 
 ***Day 5***
 
@@ -289,8 +312,9 @@ Implement car and cdr.
 
 *This problem was asked by Jane Street.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem05.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem05Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem05.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem05Test.java)                                |
 
 ***Day 4***
 
@@ -298,8 +322,9 @@ Given an array of integers, find the first missing positive integer in linear ti
 
 *This problem was asked by Stripe.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem04.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem04Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem04.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem04Test.java)                                |
 
 
 ***Day 3***
@@ -319,8 +344,10 @@ The following test should pass:
 ```
 *This problem was asked by Google.*
 
-[[Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem03.java)]
-[[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem03Test.java)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem03.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem03Test.java)                                |
+
 
 ***Day 2***
 
@@ -328,8 +355,11 @@ Given an array of integers, return a new array such that each element at index i
 
 *This problem was asked by Uber.*
 
-[[Solution](problem01/problem02.go)]
-[[Test](problem01/problem02_test.go)]
+
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java |    [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem02.java)                                |     [[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem02Test.java)                                |
+|  Go  |[Solution](problem01/Problem02.go)|[Test](problem01/Problem02_test.go)|
 
 
 ***Day 1***
@@ -338,5 +368,9 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 
 *This problem was recently asked by Google.*
 
-[[Solution](problem01/Problem01.go)]
-[[Test](problem01/Problem01_test.go)]
+| Lang | Solution | Test |
+|------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem01.java)                                |     [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem01Test.java)                                |
+|  Go  |[Solution](problem01/Problem01.go)]|[Test](problem01/Problem01_test.go)|
+
+
