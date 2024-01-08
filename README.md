@@ -358,7 +358,7 @@ Given an array of integers, return a new array such that each element at index i
 
 | Lang | Solution | Test |
 |------|------------------------------------|-------------------------------------|
-| Java |    [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/main/java/com/ibrahimatay/Problem02.java)                                |     [[Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/test/java/com/ibrahimatay/Problem02Test.java)                                |
+| Java |    [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/main/java/com/ibrahimatay/Problem02.java)                                |     [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/test/java/com/ibrahimatay/Problem02Test.java)                                |
 |  Go  |[Solution](Go/problem02/Problem02.go)|[Test](Go/problem02/Problem02_test.go)|
 
 
