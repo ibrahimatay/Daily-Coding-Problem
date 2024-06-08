@@ -1,4 +1,4 @@
-[![Go](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml) [![Java CI with Maven](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml)
+[![Java CI with Maven](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml)
 
 
 # Daily Coding Problem
@@ -359,7 +359,6 @@ Given an array of integers, return a new array such that each element at index i
 | Lang | Solution | Test |
 |------|------------------------------------|-------------------------------------|
 | Java |    [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/main/java/com/ibrahimatay/Problem02.java)                                |     [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/test/java/com/ibrahimatay/Problem02Test.java)                                |
-|  Go  |[Solution](Go/problem02/Problem02.go)|[Test](Go/problem02/Problem02_test.go)|
 
 
 ***Day 1***
@@ -371,6 +370,3 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 | Lang | Solution | Test |
 |------|------------------------------------|-------------------------------------|
 | Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/main/java/com/ibrahimatay/Problem01.java)                                |     [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/test/java/com/ibrahimatay/Problem01Test.java)                                |
-|  Go  |[Solution](Go/problem01/Problem01.go)|[Test](Go/problem01/Problem01_test.go)|
-
-
