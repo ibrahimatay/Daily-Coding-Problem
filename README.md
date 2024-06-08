@@ -1,4 +1,4 @@
-[![Java CI with Maven](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml)
+[![Java CI with Maven](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/maven.yml) [![CodeQL](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/codeql.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/codeql.yml)
 
 
 # Daily Coding Problem
