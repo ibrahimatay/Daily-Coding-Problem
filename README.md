@@ -293,10 +293,9 @@ If using a language that has no pointers (such as Python), you can assume you ha
 
 *This problem was asked by Google.*
 
-**Note:** I didn't solve with Java. Because didn't use the pointer. If you any people know, contact me.
-
 | Lang | Solution | Test |
 |------|------------------------------------|-------------------------------------|
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/main/java/com/ibrahimatay/Problem06.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/test/java/com/ibrahimatay/Problem06Test.java)                                |
 
 
 ***Day 5***
