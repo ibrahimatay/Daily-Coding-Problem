@@ -368,4 +368,4 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 
 | Lang | Solution | Test |
 |------|------------------------------------|-------------------------------------|
-| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/main/java/com/ibrahimatay/Problem01.java)                                |     [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/test/java/com/ibrahimatay/Problem01Test.java)                                |
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem01.java)                                |     [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem01Test.java)                                |
