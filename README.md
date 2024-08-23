@@ -323,7 +323,7 @@ Given an array of integers, find the first missing positive integer in linear ti
 
 | Lang | Solution | Test |
 |------|------------------------------------|-------------------------------------|
-| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem04.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/Java/src/test/com/ibrahimatay/Problem04Test.java)                                |
+| Java | [Solution](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/main/java/com/ibrahimatay/Problem04.java)                                |  [Test](https://github.com/ibrahimatay/DailyCodingProblem/blob/master/src/test/java/com/ibrahimatay/Problem04Test.java)                                |
 
 
 ***Day 3***
