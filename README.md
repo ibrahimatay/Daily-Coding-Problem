@@ -2,7 +2,7 @@
 
 
 # Daily Coding Problem
-My solutions to coding challenges from dailycodingproblem.com, are implemented in Java. If you have any questions or suggestions, please feel free to open a new issue thread for discussion.
+My solutions to coding challenges from dailycodingproblem.com are implemented in Java and Kotlin. If you have any questions or suggestions, please feel free to open a new issue thread for discussion.
 
 ****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
 
