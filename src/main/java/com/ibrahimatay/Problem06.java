@@ -2,7 +2,7 @@ package com.ibrahimatay;
 
 import java.util.HashMap;
 
-public class Problem05 {
+public class Problem06 {
     
     /*
     An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index.
@@ -27,7 +27,7 @@ public class Problem05 {
     private int tail;
     private int idCounter;
 
-    public Problem05() {
+    public Problem06() {
         memory = new HashMap<>();
         head = -1;
         tail = -1;

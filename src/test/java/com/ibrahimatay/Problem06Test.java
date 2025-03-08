@@ -4,7 +4,7 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
-public class Problem05Test {
+public class Problem06Test {
 
     /*
     An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding next and prev fields, it holds a field named both, which is an XOR of the next node and the previous node. Implement an XOR linked list; it has an add(element) which adds the element to the end, and a get(index) which returns the node at index.
@@ -24,7 +24,7 @@ public class Problem05Test {
     @Test
     public void testAddAndGetSingleElement() {
         problem.add(10);
-        assertEquals(10, problem.get(0), "The first element should be 10");
+        assertEquals("The first element should be 10", 10, problem.get(0));
     }
 
     @Test
@@ -34,10 +34,10 @@ public class Problem05Test {
         problem.add(30);
         problem.add(40);
 
-        assertEquals(10, problem.get(0), "The first element should be 10");
-        assertEquals(20, problem.get(1), "The second element should be 20");
-        assertEquals(30, problem.get(2), "The third element should be 30");
-        assertEquals(40, problem.get(3), "The fourth element should be 40");
+        assertEquals("The first element should be 10", 10, problem.get(0));
+        assertEquals("The second element should be 20", 20, problem.get(1));
+        assertEquals("The third element should be 30", 30, problem.get(2));
+        assertEquals("The fourth element should be 40",40, problem.get(3));
     }
 
     @Test
@@ -45,9 +45,10 @@ public class Problem05Test {
         problem.add(10);
         problem.add(20);
 
-        assertThrows(IndexOutOfBoundsException.class, () -> {
-            problem.get(3);
-        }, "Getting an element at an invalid index should throw IndexOutOfBoundsException");
+        assertThrows("Getting an element at an invalid index should throw IndexOutOfBoundsException",
+                IndexOutOfBoundsException.class, () -> {
+                problem.get(3);
+        });
     }
 
     @Test
@@ -57,7 +58,7 @@ public class Problem05Test {
         }
 
         for (int i = 0; i < 1000; i++) {
-            assertEquals(i, problem.get(i), "Element at index " + i + " should be " + i);
+            assertEquals("Element at index " + i + " should be " + i, i, problem.get(i));
         }
     }
 }
