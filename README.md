@@ -1,4 +1,7 @@
 # Daily Coding Problem
+
+[![Go](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml/badge.svg)](https://github.com/ibrahimatay/Daily-Coding-Problem/actions/workflows/go.yml)
+
 My solutions to coding challenges from dailycodingproblem.com are implemented in Go. If you have any questions or suggestions, please feel free to open a new issue thread for discussion.
 
 ****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
